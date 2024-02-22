@@ -14,8 +14,8 @@ async def start(bot: Client, msg: Message):
         chat_id=msg.chat.id,
         text=f"""𝖧𝐞𝐲 {msg.from_user.mention},
 
-𝗛𝗮𝗶 {me2},
-𝗕𝗼𝘁 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗺𝗯𝘂𝗮𝘁 𝘀𝘁𝗿𝗶𝗻𝗴 𝘀𝗲𝘀𝘀𝗶𝗼𝗻.
+{me2},
+𝗔𝗱𝗮𝗹𝗮𝗵 𝗕𝗼𝘁 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗺𝗯𝘂𝗮𝘁 𝘀𝘁𝗿𝗶𝗻𝗴 𝘀𝗲𝘀𝘀𝗶𝗼𝗻.
 𝗢𝘄𝗻𝗲𝗿  : [FAKEBOT](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
